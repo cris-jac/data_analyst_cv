@@ -9,7 +9,6 @@ const Footer = () => {
         <div className='mx-10 flex flex-col'>
           <p className='text-slate-50 font-bold'>About this website</p>
           <p className='text-slate-50 text-sm'>This website was built with React and other libraries by me</p>
-          {/* <SiReact className='text-white'></SiReact> */}
         </div>
         
         <div className='px-10 flex flex-col sm:items-end'>
