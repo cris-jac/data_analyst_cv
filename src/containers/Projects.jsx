@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectImg from '../assets/dummy560360.png';
 import { Link } from 'react-router-dom';
-import NavLinks from '../components/NavLinks';
+// import NavLinks from '../components/NavLinks';
 
 const projects = [
     {id: 1, name:'p01', title: "Exploratory Data Analysis", descr: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tempora repudiandae corporis non consequatur dolorem neque praesentium est! Iusto, veritatis?", img: ProjectImg}
@@ -24,7 +24,7 @@ const Projects = () => {
                     {projects.map(({title, name, descr, img}) => (
                         <Link to={name}>
                             <div className='flex flex-col mx-auto py-4 sm:py-0 gap-2'>
-                                <img src={img} />
+                                <img src={img} alt=''/>
                                 <p className='text-lg font-semibold text-center'>{title}</p>
                                 <p className='text-sm text-justify'>{descr}</p>
                             </div>

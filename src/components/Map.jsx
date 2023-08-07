@@ -3,8 +3,8 @@ import {
   ComposableMap,
   Geographies,
   Geography,
-  Annotation,
-  ZoomableGroup
+  Annotation
+  // ZoomableGroup
 } from "react-simple-maps";
 
 const Map = () => {

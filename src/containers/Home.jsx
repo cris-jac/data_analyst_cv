@@ -21,7 +21,7 @@ const Home = () => {
             </div>
 
             <div className='w-4/5 sm:w-3/5 md:w-1/2 my-12 z-0'>
-                <img className='opacity-25 hover:opacity-100 transition ease-in-out ' src={HomeImg}/>
+                <img className='opacity-25 hover:opacity-100 transition ease-in-out ' src={HomeImg} alt=''/>
             </div>
         </div>
       
@@ -30,5 +30,3 @@ const Home = () => {
 }
 
 export default Home
-
-// Do not include flex to the first div className

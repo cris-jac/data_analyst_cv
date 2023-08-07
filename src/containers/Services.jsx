@@ -1,6 +1,6 @@
 import React from 'react';
-import ServImg from '../assets/dummy264.png';
-import statsSvg from '../assets/serv_img/statistics-svgrepo-com.svg'
+// import ServImg from '../assets/dummy264.png';
+// import statsSvg from '../assets/serv_img/statistics-svgrepo-com.svg'
 import reportSvg from '../assets/serv_img/report-svgrepo-com.svg'
 import pieSvg from '../assets/serv_img/pie-chart-svgrepo-com.svg'
 import repoSvg from '../assets/serv_img/data-svgrepo-com.svg'
@@ -30,7 +30,7 @@ const Services = () => {
 
             {servs.map(({ logo, title, descr })=>(
                 <div className='flex flex-col w-full justify-center mx-auto'>
-                    <img src={logo} className='z-[-1] grayscale h-1/2 md:h-2/5'/>
+                    <img src={logo} className='z-[-1] grayscale h-1/2 md:h-2/5' alt=''/>
                     <p className='text-lg font-semibold text-center'>{title}</p>
                     <p className='text-sm text-justify'>{descr}</p>
                 </div>

@@ -50,11 +50,11 @@ const NavBar = () => {
         {
             location ? 
             <div className='flex flex-row items-center gap-4 px-10 cursor-pointer' onClick={()=>goToHomeAndScroll('home')}>
-                <img src={mainLogo} className='h-12'/>
+                <img src={mainLogo} className='h-12' alt=''/>
                 <p className='text-md font-semibold text-slate-50'>Cristian <br></br>Apaza</p>
             </div> :
             <div className='flex flex-row items-center gap-4 px-10 cursor-pointer' onClick={()=>scrollToSection('home')}>
-                <img src={mainLogo} className='h-12'/>
+                <img src={mainLogo} className='h-12' alt=''/>
                 <p className='text-md font-semibold text-slate-50'>Cristian <br></br>Apaza</p>
             </div>
         }

@@ -31,7 +31,7 @@ const About = () => {
         </div>
       
         <div className='flex flex-col items-center bg-gradient-to-r from-slate-500 via-slate-400 to-slate-600 my-10 py-4 gap-4 opacity-90'>
-            <a href="" target='_blank' rel='noreferrer' className='flex flex-col items-center '>
+            <a href="#" target='_blank' rel='noreferrer' className='flex flex-col items-center '>
               <p className='text-lg'>Take a look at my CV</p>
               <RiFileUserLine size={60} className='text-slate-800'/>
             </a>              
