@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectImg from '../assets/dummy560360.png';
+import ProjectImg from '../assets/p01.png';
 import { Link } from 'react-router-dom';
 // import NavLinks from '../components/NavLinks';
 
@@ -24,7 +24,7 @@ const Projects = () => {
                     {projects.map(({title, name, descr, img}) => (
                         <Link to={name}>
                             <div className='flex flex-col mx-auto py-4 sm:py-0 gap-2'>
-                                <img src={img} alt=''/>
+                                <img src={img} alt='' className='grayscale hover:grayscale-0'/>
                                 <p className='text-lg font-semibold text-center'>{title}</p>
                                 <p className='text-sm text-justify'>{descr}</p>
                             </div>

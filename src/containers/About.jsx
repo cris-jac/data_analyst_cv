@@ -30,11 +30,16 @@ const About = () => {
             
         </div>
       
-        <div className='flex flex-col items-center bg-gradient-to-r from-slate-500 via-slate-400 to-slate-600 my-10 py-4 gap-4 opacity-90'>
+        <div className='flex flex-row justify-center bg-gradient-to-r from-slate-500 via-slate-400 to-slate-600 my-10 py-4 gap-4 opacity-90'>
             <a href="/da_cv_2023_en.pdf" target='_blank' rel='noreferrer' className='flex flex-col items-center '>
-              <p className='text-lg'>Take a look at my CV</p>
+              <p className='text-lg text-center'>Take a look<br></br>at my Resume</p>
               <RiFileUserLine size={60} className='text-slate-800'/>
-            </a>              
+            </a>     
+
+            <a href="/da_cv_2023_es.pdf" target='_blank' rel='noreferrer' className='flex flex-col items-center '>
+              <p className='text-lg text-center'>And here<br></br>in <b>Spanish</b></p>
+              <RiFileUserLine size={60} className='text-sky-400'/>
+            </a>            
           </div>
     </div>
   )

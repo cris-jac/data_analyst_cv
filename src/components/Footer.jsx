@@ -3,7 +3,7 @@ import {SiGithub} from 'react-icons/si'
 
 const Footer = () => {
   return (
-    <div className='w-full min-h-30 bg-slate-800 mt-6 flex flex-col bottom-0'>
+    <div className='w-full min-h-30 bg-slate-800 mt-6 flex flex-col'>
 
       <div className='flex justify-between items-center py-2'>
         <div className='mx-10 flex flex-col'>
@@ -14,7 +14,10 @@ const Footer = () => {
         <div className='px-10 flex flex-col sm:items-end'>
           <p className='text-slate-50 font-bold'>Networks</p>
           <p className='text-slate-50 text-sm'>You can follow me on:</p>
-          <SiGithub className='text-slate-50 '></SiGithub>
+          <a href="https://github.com/cris-jac" target='_blank' rel='noreferrer'>
+            <SiGithub className='text-slate-50 '/>
+          </a>
+          
         </div>
       </div>
 
