@@ -22,7 +22,7 @@ const Intro = () => {
             <h1 className='text-center font-bold text-4xl py-6'>Exploratory Data Analysis of PDF eBook</h1>
 
             <h2 className='font-bold text-2xl my-2'>Introduction</h2>
-            <p className='text-justify my-2'>Between the kinds of data, we can distiguish between structured and unstructued, according to it's....<br></br>In a way, most of the internet data is unstructured, which makes usual to deal with this kind of data. The aim of this project is acquire data from an unstructured file (such as a PDF), and analyse the data and extract information from this</p>
+            <p className='text-justify my-2'>Among the types of data, a distinction can be made between structured and unstructured, depending on the organization. In a way, most data on the Internet is unstructured, which makes it common to deal with this type of data. The goal of this project is to acquire data from an unstructured file (such as a PDF), analyze the data, and extract information from it.</p>
             <h3 className='font-bold text-lg my-2'>Libraries</h3>
             <p className='text-justify my-2'>For this project, Python was the main programming language. However, due to the intended analysis, it was necessary to use third party libraries, such as:
             </p>

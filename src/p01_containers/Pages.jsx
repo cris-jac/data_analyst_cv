@@ -14,7 +14,7 @@ const Pages = () => {
             </div>
 
             <h3 className='font-bold text-lg mb-2 mt-4 px-10'>Case: Search for a word</h3>
-            <p className='text-justify my-2  px-10'>In this dataframe, there are xxxxx words, so if it's required to find a specific word, it should be seeked column by column. However this would result repetitive, so here a simple filter is used for both columns and rows, in order to obtained these 'coordinates'.</p>
+            <p className='text-justify my-2  px-10'>In this dataframe, there are 42013 words, so if it's required to find a specific word, it should be seeked column by column. However this would result repetitive, so here a simple filter is used for both columns and rows, in order to obtained these 'coordinates'.</p>
             <p className='text-justify my-2  px-10'>For this the title of the book is used as an example. So first all columns containing 'ficciones' were selected, detecting 2 columns ('23', '47'). The same was applied for the rows, detecting 3 rows (122, 362, 375). Knowing this, the 'coordinates' can be used to check if the word is there</p>
             
             <div  className='flex flex-col items-center'>
