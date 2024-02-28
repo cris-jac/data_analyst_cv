@@ -2,7 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { HashRouter, BrowserRouter as Router } from 'react-router-dom';
+import { 
+  HashRouter, 
+  // BrowserRouter as Router 
+} from 'react-router-dom';
+
 
 
 
